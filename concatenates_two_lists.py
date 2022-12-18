@@ -11,9 +11,6 @@ def concatenates_lists(list1, list2):
     return concatenated_list
 
 
-1
-
-
 def main():
     # this function gets two lists
 
