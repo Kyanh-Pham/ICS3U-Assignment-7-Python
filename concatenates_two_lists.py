@@ -5,11 +5,15 @@
 
 
 def concatenates_lists(list1, list2):
-    for x in list2: 
+    for x in list2:
         list1.append(x)
     concatenated_list = list1
     return concatenated_list
+
+
 1
+
+
 def main():
     # this function gets two lists
 
