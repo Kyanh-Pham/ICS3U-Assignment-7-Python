@@ -14,41 +14,41 @@ def concatenates_lists(list1, list2):
 def main():
     # this function gets two lists
 
-    christmas_list1 = []
-    christmas_list2 = []
-    christmas_shopping_list = []
+    first_list = []
+    second_list = []
+    combined_lists = []
 
     # input
-    print("Please enter 5 items kid 1 wants for Christmas: ")
+    print("Please enter 5 items to place in the list: ")
     item1 = input("Item 1: ")
-    christmas_list1.append(item1)
+    first_list.append(item1)
     item2 = input("Item 2: ")
-    christmas_list1.append(item2)
+    first_list.append(item2)
     item3 = input("Item 3: ")
-    christmas_list1.append(item3)
+    first_list.append(item3)
     item4 = input("Item 4: ")
-    christmas_list1.append(item4)
+    first_list.append(item4)
     item5 = input("Item 5: ")
-    christmas_list1.append(item5)
+    first_list.append(item5)
 
-    print("Please enter 5 items kid 2 wants for Christmas: ")
+    print("Please enter 5 items to place in the second list: ")
     item1 = input("Item 1: ")
-    christmas_list2.append(item1)
+    second_list.append(item1)
     item2 = input("Item 2: ")
-    christmas_list2.append(item2)
+    second_list.append(item2)
     item3 = input("Item 3: ")
-    christmas_list2.append(item3)
+    second_list.append(item3)
     item4 = input("Item 4: ")
-    christmas_list2.append(item4)
+    second_list.append(item4)
     item5 = input("Item 5: ")
-    christmas_list2.append(item5)
+    second_list.append(item5)
 
     # process and output
     # calls function
-    christmas_shopping_list = concatenates_lists(christmas_list1, christmas_list2)
+    combined_lists = concatenates_lists(first_list, second_list)
     print("")
-    print("Here is your Christmas shopping list: ")
-    print("{0}".format(christmas_shopping_list))
+    print("Here is your combined list: ")
+    print("{0}".format(combined_lists))
 
     print("\nDone.")
 
