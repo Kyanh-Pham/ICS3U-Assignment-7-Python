@@ -5,8 +5,8 @@
 
 
 def concatenates_lists(list1, list2):
-    for item_in_list in list2:
-        list1.append(item_in_list)
+    for a_single_item in list2:
+        list1.append(a_single_item)
     concatenated_list = list1
     return concatenated_list
 
