@@ -5,8 +5,8 @@
 
 
 def concatenates_lists(list1, list2):
-    for x in list2:
-        list1.append(x)
+    for item_in_list in list2:
+        list1.append(item_in_list)
     concatenated_list = list1
     return concatenated_list
 
@@ -20,28 +20,14 @@ def main():
 
     # input
     print("Please enter 5 items to place in the list: ")
-    item1 = input("Item 1: ")
-    first_list.append(item1)
-    item2 = input("Item 2: ")
-    first_list.append(item2)
-    item3 = input("Item 3: ")
-    first_list.append(item3)
-    item4 = input("Item 4: ")
-    first_list.append(item4)
-    item5 = input("Item 5: ")
-    first_list.append(item5)
+    for counter in range(1, 6):
+        item = input("Item {0}: ".format(counter))
+        first_list.append(item)
 
     print("Please enter 5 items to place in the second list: ")
-    item1 = input("Item 1: ")
-    second_list.append(item1)
-    item2 = input("Item 2: ")
-    second_list.append(item2)
-    item3 = input("Item 3: ")
-    second_list.append(item3)
-    item4 = input("Item 4: ")
-    second_list.append(item4)
-    item5 = input("Item 5: ")
-    second_list.append(item5)
+    for counter in range(1, 6):
+        item = input("Item {0}: ".format(counter))
+        second_list.append(item)
 
     # process and output
     # calls function
